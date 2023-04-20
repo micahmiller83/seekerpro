@@ -1,0 +1,7 @@
+# Ignore the node_modules folder
+node_modules
+
+# Ignore files that hold the API keys and project IDs
+.env
+.firebaserc
+/src/firebase.js
