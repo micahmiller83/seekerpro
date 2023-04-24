@@ -2,7 +2,7 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import Header from './components/Header';
-import DeviceFinder from './components/DeviceFinder';
+import DeviceIDInput from './components/DeviceIDInput';
 import BluetoothTracker from './components/BluetoothTracker';
 import DynamicCompass from './components/DynamicCompass';
 import Map from './components/Map';
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <DeviceFinder onDeviceFound={handleDeviceFound} />
+      <DeviceIDInput onDeviceFound={handleDeviceFound} />
       {deviceLocation && <Map location={deviceLocation} />}
       {bluetoothTracking && (
         <BluetoothTracker

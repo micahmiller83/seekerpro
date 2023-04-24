@@ -1,7 +1,10 @@
 .map-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     margin-top: 10px;
+    width: 100%;
+    height: 100%;
 }
 
 .map {
@@ -12,5 +15,15 @@
     z-index: 1;
 }
   
+.open-in-google-maps {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
   
+.open-in-google-maps:hover {
+    text-decoration: underline;
+}
+    
   
