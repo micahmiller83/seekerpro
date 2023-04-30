@@ -5,3 +5,7 @@ node_modules
 .env
 .firebaserc
 /src/firebase.js
+
+# Ignore Build and Firebase deployment files
+.firebase
+dist
