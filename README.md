@@ -3,6 +3,9 @@ GPS Tracker IoT Project
 
 To run this project you must create the following files:  
 - `.env` which contains your Google maps API key
+```
+VITE_GOOGLE_MAPS_API_KEY={your Google maps API key}
+```
 
 - `.firbaserc` which contains your Firebase project ID  
 ```
